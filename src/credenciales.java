@@ -6,8 +6,7 @@ public class credenciales {
     private JTextField textField3;
     private JTextField textField4;
     private JButton agragarALaBaseButton;
-
-
+     JPanel pantalla;
 
 
 }
