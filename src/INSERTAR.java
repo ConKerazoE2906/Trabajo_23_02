@@ -21,9 +21,9 @@ public class INSERTAR {
     public INSERTAR(){}
 
     public void ingreso_datos(int id, String nombre_apellido, String pasatiempo, String descripcion){
-        try(Connection conexion_2 = DriverManager.getConnection("jdbc:mysql://sql10.freemysqlhosting.net:3306", "sql10686343","wf5tnRIQi9")){
+        try(Connection conexion_2 = DriverManager.getConnection("jdbc:mysql://sql10.freemysqlhosting.net:3306/sql10686342", "sql10686342","FZI2EyHqCS")){
 
-            String sql="INSERT INTO datos(id, nombre_apellido, pasatiempo, descripcion)values(?,?,?,?)";
+            String sql="INSERT INTO pasatiempos(id, nombre, pasatiempos, descripcion)values(?,?,?,?)";
 
             try(PreparedStatement preparedStatement = conexion_2.prepareStatement(sql)){
                 preparedStatement.setInt(1, id);

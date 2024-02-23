@@ -15,7 +15,6 @@ public class Main {
         frame.setSize(800, 600);
         frame.setVisible(true);
         frame.pack();
-        frame.setUndecorated(true);
-        frame.setLocationRelativeTo(null);
+
     }
 }
